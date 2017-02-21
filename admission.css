@@ -1,0 +1,42 @@
+label{display:inline-block;color:gray;transition: all 0.1s;
+}
+.control-group{background-color: #fafbf0;}
+
+.control{}
+
+legend{box-shadow: 5px 5px 5px #aaa;font-size: 30px;font-family: 'Raleway', sans-serif;width: 300px;}
+
+.break{margin-right:40px;	margin-left: 40px;width: cover;border-radius: 1px;height:5px;background-color: #ccc;}
+
+input{background-color:transparent;padding-left: 25px;border-style: solid;border-bottom-color: #015100;border-width:  0 0 1px 0;box-shadow: 2px 2px 2px #ccc;margin-bottom: 10px;height:45px;width: 25%;outline: none;transition: all 0.1s ease-in-out;}
+
+input[type=text]:focus{color: #015100;border-bottom:3px solid #015100;background-color: #fff;box-shadow: 8px 8px 8px #ccc;transform: scale(1.02);}
+
+input[type=text]:hover{border-radius:5px;}
+
+form{margin: 0 auto;width: 95%;box-shadow:10px 5px 5px #ccc;}
+
+.top_menu{height: 100px;width: cover;background-color: #005034;}
+
+h1{position: absolute;margin-left: 30px;color:#ffffff;font-family: 'Raleway', sans-serif;}
+
+.top_gap{height: 30px;width: cover;}
+
+.top_line{background-color:#ddd;height: 10px;width: cover;}
+
+input[type=submit]{font-weight: bolder;color:#015100;background-color: #fff;border:2px solid #035118;transition: all 0.2s ease-in-out ;}
+
+input[type=submit]:hover{transform: scale(1.05);background-color: #035118;color: #ffffff;font-size:15px;}
+
+input[type=text]::-webkit-input-placeholder {transition: all 0.2s ease-in-out;}
+
+input[type=text]:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {color: #035118;font-size: 11px;transform: translateY(-17px);visibility: visible important;}
+
+
+#textinput-20{background-image: url(http://i988.photobucket.com/albums/af3/mudassarkhan/calender.png);background-repeat: no-repeat;padding-left: 25px;}
+
+@media(max-width: 500px){body{background-color: red;}}
+
+span{
+	margin:0 auto;
+}
